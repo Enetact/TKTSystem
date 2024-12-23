@@ -1,0 +1,25 @@
+﻿/* Enhance navbar readability and spacing */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Improve footer contrast and spacing */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1030; /* Ensures the footer stays above other content */
+}
+
+    .footer span {
+        color: #ffffff;
+    }
+
+/* Main content adjustments for better layout */
+main {
+    padding-top: 1rem;
+    padding-bottom: 2.5rem; /* Adjusts bottom padding to ensure content isn't hidden by the footer */
+}

@@ -1,0 +1,26 @@
+/* _content/HotspotGamingTicketingSystem/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Enhance navbar readability and spacing */
+.navbar-brand[b-uck3rh4dpd] {
+    font-weight: bold;
+}
+
+/* Improve footer contrast and spacing */
+.footer[b-uck3rh4dpd] {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1030; /* Ensures the footer stays above other content */
+}
+
+    .footer span[b-uck3rh4dpd] {
+        color: #ffffff;
+    }
+
+/* Main content adjustments for better layout */
+main[b-uck3rh4dpd] {
+    padding-top: 1rem;
+    padding-bottom: 2.5rem; /* Adjusts bottom padding to ensure content isn't hidden by the footer */
+}
